@@ -118,5 +118,4 @@ match ($act) {
 
 };
 
-// Thử mà thôi
 

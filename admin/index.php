@@ -119,4 +119,4 @@ match ($act) {
 };
 
 // Thử mà thôi
-echo "123";
+

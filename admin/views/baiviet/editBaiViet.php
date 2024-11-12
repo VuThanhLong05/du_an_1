@@ -31,13 +31,13 @@
                     <div class="card card-primary">
                         <div class="card-header">
                             <h3 class="card-title">Sửa bài viết</h3>
-                        </div>4
+                        </div>
                         <!-- /.card-header -->
                         <!-- form start -->
                         <form action="<?= BASE_URL_ADMIN . '?act=sua-bai-viet' ?>" method="post">
                         <input type="text" name="id" id="" value="<?= $baiViet['id'] ?>" hidden>
-                            <div class="card-body">
-                                <div class="form-group">
+                            <div class="row card-body">
+                                <div class="form-group col-12">
                                     <label>Tiêu đề bài viết</label>
                                     <input type="text" class="form-control" name="tieu_de" placeholder="Nhập tiêu đề bài viết" value="<?= $baiViet['tieu_de'] ?>">
 
@@ -46,7 +46,7 @@
                                     <?php } ?>
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group col-12">
                                     <label>Nội dung</label>
                                     <textarea class="form-control" name="noi_dung" placeholder="Nhập nội dung"><?= $baiViet['noi_dung'] ?></textarea>
 
@@ -55,7 +55,7 @@
                                     <?php } ?>
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group form-group col-6">
                                     <label>ngày đăng</label>
                                     <input type="date" class="form-control" name="ngay_dang" value="<?= $baiViet['ngay_dang'] ?>">
 
@@ -64,7 +64,7 @@
                                     <?php } ?>
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group col-6">
                                     <label>Trạng thái</label>
                                     <select class="form-control" name="trang_thai" id="exampleFormControlSelectl">
                                         <option selected disabled>Chọn trạng thái bài viết</option>

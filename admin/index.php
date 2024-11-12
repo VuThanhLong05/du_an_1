@@ -117,3 +117,6 @@ match ($act) {
     'xoa-banner' => (new AdminBannerController)->xoaBanner(),
 
 };
+
+// Thử mà thôi
+echo "123";

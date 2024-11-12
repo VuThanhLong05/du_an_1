@@ -58,7 +58,7 @@
 
                                 </div> -->
 
-                                <div class="form-group col-12">
+                                <div class="form-group col-6">
                                     <label>Trạng thái</label>
                                     <select class="form-control" name="trang_thai" id="exampleFormControlSelectl">
                                         <option selected disabled>Chọn trạng thái banner</option>
